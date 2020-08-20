@@ -4,45 +4,48 @@
     <head>
         <title>Abogado: Julio Gongora Leon</title>
         <link rel="icon" type:"image/png" href="LegalHub.png" />
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
-    
     <body>
-        <header>
-            <figure>
+        <header class="header">
+            <figure class="logo">
                 <img src="LegalHub.png" alt="Logo de mi página" width="90"/>
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="./portafolio/index.html">Portafolio</a>
+                        <a class="link" href="./portafolio/index.html">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#mas_sobre_mi">Más sobre mi</a>
+                        <a class="link" href="#mas_sobre_mi">Más sobre mi</a>
                     </li>
                     <li>
-                        <a href="#contactame">Trabajemos juntos</a>
+                        <a class="link" href="#contactame">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
         </header>
-        <section>
-            <h1>Soy <strong>Julio Gongora</strong>,<br /> abogado y programador con<br /> muchas ganas de <strong>aprender y enseñar</strong>.</h1>
-            <img> imagen de portada
+        <section class="hero">
+            <h1>
+                Soy <strong>Julio Gongora</strong>,<br /> abogado y programador con<br /> muchas ganas de <strong>aprender y enseñar</strong>.
+            </h1>
+            <img src="principal.jpg" alt="no hubo">
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (Trabajos destacados)</h2>
-            <article>
-                <h3>Cambio de Nombre</h3>
-                <h6>Juicio Familiar de Sucesión Testamentaria</h6>
-                <p><small><strong>Fecha:</strong> 01/01/2018</small></p>
+            <article class="project">
+                <h3 class="project-matter">Juicios de Materia Familiar</h3>
+                <h6 class="project-type">Juicio Familiar de Sucesión Testamentaria</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/01/2018</small></p>
+                <p class="project-description">En este juicio tuvimos que tramitar la herencia de una persona con un total de 600 millones de pesos</p>
             </article>
         </section>
-        <section id="mas_sobre_mi">
-            <h2>Más sobre mí</h2>
-            <article>
-                <figure>
-                    <img src="GOPR0822.JPG" alt="no hay" width="500" height="500" />
-                    <h3>Una fotirri mía en el pepsi center CDMX (Viaje a la Ciudad de México)</h3>
+        <section id="mas_sobre_mi" class="about">
+            <h2 class="about-me">Más sobre mí</h2>
+            <article class="about-cdmx">
+                <figure class="about-imageWrapper">
+                    <img class="about-image" src="GOPR0822.JPG" alt="no hay" width="500" height="500" />
+                    <h3 class="about-image-title">Una fotirri mía en el pepsi center CDMX (Viaje a la Ciudad de México)</h3>
                 </figure>
             </article>
             <article>
@@ -53,15 +56,15 @@
                 </figure>
             </article>
         </section>
-        <section id="contactame">
-            <form action="/suscripcion/">
+        <section id="contactame" class="contact">
+            <form action="/suscripcion/" class="form-email">
                 <h3>¿Trabajamos juntos?</h3>
                 <label for="">Mándame tu correito papi</label>
                 <input type="text" placeholder="deja tu mail bro">
                 <button>Listo perro</button>
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
     </body>
 
     </html>
