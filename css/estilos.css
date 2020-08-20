@@ -17,5 +17,41 @@ h6 {
 }
 
 h1 {
+    color: whitesmoke;
+    letter-spacing: -.2px;
+    font-size: 40px;
     line-height: 2em;
 }
+
+.project-details {
+    width: 500px;
+}
+
+.imagenWrapper {
+    width: 500px;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+}
+
+.header {
+    background-color: #1b2127;
+    color: whitesmoke;
+}
+
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.hero {
+    height: 300px;
+    background-color: #1b2127;
+    background-image: url('../principal.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
