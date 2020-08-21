@@ -31,7 +31,12 @@ h1 {
     width: 500px;
 }
 
+body > header > nav > ol > li:nth-child(3) > a {
+    position: right;
+}
+
 ol {
+    position: right;
     list-style-type: none;
     display: flex;
 }
