@@ -33,17 +33,13 @@ h2 {
     letter-spacing: -.2px;
 }
 
-.hero {
-    margin: 0px;
-    height: 300px;
-    background-color: #1b2127;
-    background-image: url('../principal.jpg');
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+strong {
+    color: teal;
 }
 
 .header {
+    margin: 0px 25px;
+    border-radius: 10px;
     background-color: #1b2127;
     color: whitesmoke;
 }
@@ -51,6 +47,19 @@ h2 {
 .header a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.hero {
+    margin: 0px 25px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: #1b2127;
+    background-image: url('../principal.jpg');
+    background-size: 500px 350px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 ol {
@@ -81,4 +90,34 @@ ol {
 
 .project-details {
     width: 500px;
+}
+
+.about-cdmx {
+    color: whitesmoke;
+    margin: 0px 25px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;  
+    background: #1b2127;
+}
+
+.about-alcala {
+    color: whitesmoke;
+    margin: 0px 25px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;  
+    background: #1b2127;
+}
+
+.contact {
+    color: whitesmoke;
+    margin: 0px 25px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;  
+    background: #1b2127;
 }
