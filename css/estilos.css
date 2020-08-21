@@ -40,16 +40,49 @@ strong {
 }
 
 .header {
+    height: 90px;
     margin: 0px 25px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #1b2127;
     color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header a {
+body > header > a > img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+ol,
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu-link {
     color: whitesmoke;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 22px;
 }
 
 .hero {
@@ -66,12 +99,6 @@ strong {
     background-position-x: right;
 }
 
-ol {
-    margin: 0px;
-    list-style-type: none;
-    display: flex;
-}
-
 .project {
     /*border-top: 10px solid red;
     border-right: 10px solid green;
@@ -85,7 +112,8 @@ ol {
     border: 1px solid black;
     border-radius: 10px;  
     background: white;
-    width: 500px;
+    width: fit-content;
+    display: flex;
 }
 
 .project-image {
